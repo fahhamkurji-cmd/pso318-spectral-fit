@@ -16,15 +16,5 @@ Undergraduate project. Code for viewing only. Exploratory: there is no report or
 
 The data are not included in this repo, so the notebook can't be run as-is. The code is here to show the method.
 
-- Spectrum: `PSO318-22.csv` (columns: `wavelength`, `flux`, `flux_err`). Source: [fill in].
-- Models: SM08 grid files named like `sp_t1500g3000f2`. Source: [fill in].
-
-## Reproducing it
-
-To run it yourself you'd need to obtain both datasets from the sources above, put them next to the notebook, and set `MODEL_DIR` in the config cell.
-
-Requirements: Python with numpy, pandas, matplotlib, scipy and `coronagraph`. `coronagraph` 1.1 needs an older SciPy (the original run used SciPy 1.7.3).
-
-## Status
-
-Unfinished. The scale factor is fitted per model rather than derived from physical quantities, and there is no uncertainty estimate on the best-fit parameters.
+- Spectrum: `PSO318-22.csv` (columns: `wavelength`, `flux`, `flux_err`). Provided as part of the project; original source not recorded.
+- Models: SM08 grid files named like `sp_t1500g3000f2`. Provided as part of the project; original source not recorded.
